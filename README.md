@@ -1,0 +1,1 @@
+# Colorscheme template
