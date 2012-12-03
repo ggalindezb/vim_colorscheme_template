@@ -1,7 +1,7 @@
 " Vim colorscheme template file
 " Author: Gerardo Galindez <gerardo.galindez@gmail.com>
 " Maintainer: Gerardo Galindez <gerardo.galindez@gmail.com>
-" Notes: To check the meaning of the highlight groups, :help 'hightlight'
+" Notes: To check the meaning of the highlight groups, :help 'highlight'
 
 " --------------------------------
 set background=dark
@@ -31,20 +31,56 @@ hi CursorLine      ctermfg=none    ctermbg=none    cterm=none
 hi LineNr          ctermfg=none    ctermbg=none    cterm=none
 hi CursorLineNR    ctermfg=none    ctermbg=none    cterm=none
 
+" -----------------
+" - Number column -
+" -----------------
 hi CursorColumn    ctermfg=none    ctermbg=none    cterm=none
 hi FoldColumn      ctermfg=none    ctermbg=none    cterm=none
+hi SignColumn      ctermfg=none    ctermbg=none    cterm=none
 hi Folded          ctermfg=none    ctermbg=none    cterm=none
 
-hi WildMenu        ctermfg=none    ctermbg=none    cterm=none
+" -------------------------
+" - Window/Tab delimiters - 
+" -------------------------
+hi VertSplit       ctermfg=none    ctermbg=none    cterm=none
+hi ColorColumn     ctermfg=none    ctermbg=none    cterm=none
+hi TabLine         ctermfg=none    ctermbg=none    cterm=none
+hi TabLineFill     ctermfg=none    ctermbg=none    cterm=none
+hi TabLineSel      ctermfg=none    ctermbg=none    cterm=none
+
+" -------------------------------
+" - File Navigation / Searching -
+" -------------------------------
+hi Directory       ctermfg=none    ctermbg=none    cterm=none
+hi Search          ctermfg=none    ctermbg=none    cterm=none
+hi IncSearch       ctermfg=none    ctermbg=none    cterm=none
+
+" -----------------
+" - Prompt/Status -
+" -----------------
 hi StatusLine      ctermfg=none    ctermbg=none    cterm=none
 hi StatusLineNC    ctermfg=none    ctermbg=none    cterm=none
-hi VertSplit       ctermfg=none    ctermbg=none    cterm=none
+hi WildMenu        ctermfg=none    ctermbg=none    cterm=none
+hi Question        ctermfg=none    ctermbg=none    cterm=none
+hi Title           ctermfg=none    ctermbg=none    cterm=none
+hi ModeMsg         ctermfg=none    ctermbg=none    cterm=none
+hi MoreMsg         ctermfg=none    ctermbg=none    cterm=none
+
+" --------------
+" - Visual aid -
+" --------------
+hi MatchParen      ctermfg=none    ctermbg=none    cterm=none
+hi Visual          ctermfg=none    ctermbg=none    cterm=none
+hi VisualNOS       ctermfg=none    ctermbg=none    cterm=none
+hi NonText         ctermfg=none    ctermbg=none    cterm=none
 
 hi Todo            ctermfg=none    ctermbg=none    cterm=none
 hi Underlined      ctermfg=none    ctermbg=none    cterm=none
 hi Error           ctermfg=none    ctermbg=none    cterm=none
 hi ErrorMsg        ctermfg=none    ctermbg=none    cterm=none
+hi WarningMsg      ctermfg=none    ctermbg=none    cterm=none
 hi Ignore          ctermfg=none    ctermbg=none    cterm=none
+hi SpecialKey      ctermfg=none    ctermbg=none    cterm=none
 
 " --------------------------------
 " Variable types
@@ -102,24 +138,6 @@ hi DiffDelete      ctermfg=none    ctermbg=none    cterm=none
 hi DiffText        ctermfg=none    ctermbg=none    cterm=none
 
 " --------------------------------
-" File Navigation
-" --------------------------------
-hi Directory       ctermfg=none    ctermbg=none    cterm=none
-
-" --------------------------------
-" Searching
-" --------------------------------
-hi IncSearch       ctermfg=none    ctermbg=none    cterm=none
-hi Search          ctermfg=none    ctermbg=none    cterm=none
-
-" --------------------------------
-" Visual aid
-" --------------------------------
-hi MatchParen      ctermfg=none    ctermbg=none    cterm=none
-hi ModeMsg         ctermfg=none    ctermbg=none    cterm=none
-hi MoreMsg         ctermfg=none    ctermbg=none    cterm=none
-
-" --------------------------------
 " Completion menu
 " --------------------------------
 hi Pmenu           ctermfg=none    ctermbg=none    cterm=none
@@ -127,18 +145,14 @@ hi PmenuSel        ctermfg=none    ctermbg=none    cterm=none
 hi PmenuSbar       ctermfg=none    ctermbg=none    cterm=none
 hi PmenuThumb      ctermfg=none    ctermbg=none    cterm=none
 
-hi Question        ctermfg=none    ctermbg=none    cterm=none
-hi SignColumn      ctermfg=none    ctermbg=none    cterm=none
-hi SpecialKey      ctermfg=none    ctermbg=none    cterm=none
-hi Title           ctermfg=none    ctermbg=none    cterm=none
-hi ColorColumn     ctermfg=none    ctermbg=none    cterm=none
-hi WarningMsg      ctermfg=none    ctermbg=none    cterm=none
-hi Visual          ctermfg=none    ctermbg=none    cterm=none
-hi VisualNOS       ctermfg=none    ctermbg=none    cterm=none
-hi NonText         ctermfg=none    ctermbg=none    cterm=none
-
-" To sort
+" --------------------------------
+" Spelling
+" --------------------------------
+hi SpellBad        ctermfg=none    ctermbg=none    cterm=none
+hi SpellCap        ctermfg=none    ctermbg=none    cterm=none
+hi SpellLocal      ctermfg=none    ctermbg=none    cterm=none
+hi SpellRare       ctermfg=none    ctermbg=none    cterm=none
 
 "--------------------------------------------------------------------
-" Specific settings |
+" Specific settings                                                 |
 "--------------------------------------------------------------------
