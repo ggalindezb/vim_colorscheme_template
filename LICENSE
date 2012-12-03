@@ -2,6 +2,10 @@ Vim Colorscheme Template
 This file is a simple template to create a terminal Vim colorscheme by hand. 
 It contains the most common syntax groups set to default values.
 
+Note: The colortest file is licensed to Maestro Entheon, who gave 100%
+permission to anyone to mess around with the file. If you like it, buy him a
+beer too =D
+
 Copyright 2012, Gerardo Galíndez
 
 Licensed under the "THE BEER-WARE LICENSE" (Revision 42):
